@@ -37,7 +37,8 @@
   z-index: 5;
   background: white;
   width: 97%;
-  padding-bottom: 360px; }
+  padding-bottom: 360px; 
+  owerflow: hidden;}
 
 #AddContactBlock i {
   font-size: 47px;

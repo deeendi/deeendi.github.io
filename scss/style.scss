@@ -1,0 +1,238 @@
+.qqq {
+  max-width: 450px;
+  margin: 0 auto;
+  font-family: 'Muli', sans-serif;}
+
+#header
+{
+  border-bottom: 1px solid #E7E7E7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.contacts
+{
+  color: #53BA85;
+}
+#header h2
+{  padding-bottom: 10px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+
+}
+.NewContact
+{
+  color: #656565;
+}
+#Save
+{
+  color: #E7E7E7;
+  display: none;
+}
+#Cancel
+{
+  color: #53BA85;
+  display: none;
+}
+
+#AddContactBlock
+{
+  margin-top: 25px;
+
+  display: none;
+  position: absolute;
+  top: 54px;
+  z-index: 5;
+  background: white;
+  width: 97%;
+  padding-bottom: 360px;
+}
+#AddContactBlock i
+{
+  font-size: 47px;
+  color: #E7E7E7;
+  padding-right: 5px;
+}
+#EditContactBlock
+{
+  margin-top: 25px;
+
+  display: none;
+  position: absolute;
+  top: 54px;
+  z-index: 5;
+  background: white;
+  width: 97%;
+  padding-bottom: 360px;
+}
+#EditContactBlock i
+{
+  font-size: 47px;
+  color: #E7E7E7;
+  padding-right: 5px;
+}
+
+.Phone
+{
+  border-bottom: 1px solid #E7E7E7;
+}
+.Phone p
+{
+  border-right: 1px solid #E7E7E7;
+  padding: 5px;
+  display: inline;
+}
+.Phone input
+{
+  border: none;
+}
+.Name input
+{
+  border: none;
+  border-bottom: 1px solid #E7E7E7;
+  padding-bottom: 10px;
+  position: relative;
+  bottom: 10px;
+}
+#AddContactBlock input
+{
+  width: 80%;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  font-size: x-large;
+  color: black;
+
+}
+#AddContactBlock input::-webkit-input-placeholder { color: #E7E7E7; }
+
+#EditContactBlock input
+{
+  width: 80%;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  font-size: x-large;
+  color: black;
+
+}
+#EditContactBlock input::-webkit-input-placeholder { color: #E7E7E7; }
+#searchBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border: #d4e2da solid 1px;
+  border-radius: 20px;
+  margin: 20px auto;
+  width: 290px; }
+#searchBlock .fa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background: white;
+  color: #d4e2da; }
+#searchBlock #filter {
+  border: none;
+  color: black;
+  outline: none;
+  padding: 0 5px;
+  font-size: 20px; }
+
+.fa-user-plus {
+  display: block;
+  position: fixed;
+  right: 44.5%;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #53BA85;
+  font-size: 50px;
+  z-index: 1; }
+#contact
+{
+  margin: 10px 0 10px 0;
+
+}
+#contact p
+{
+  display: inline;
+  font-size: x-large;
+  position: relative;
+  bottom: 8px;
+}
+#contact i
+{
+  font-size: 47px;
+  color: #53BA85;
+  padding-right: 25px;
+  padding-left: 10px;
+}
+#selectedContact
+{
+  display: none;
+  position: absolute;
+  z-index: 5;
+  background: white;
+  width: 97%;
+  padding-bottom: 360px;
+}
+.head
+{
+  border-bottom: 1px solid #E7E7E7;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.head p
+{
+  display: inline;
+}
+.head i
+{
+  margin-right: 20px;
+}
+
+.head p, .head i
+{
+  color: #53BA85;
+}
+.number
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: x-large;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-bottom: 1px solid #E7E7E7;
+
+}
+.number i
+{
+  color: gray;
+}
+.icos
+{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.icos i
+{
+  text-align: center;
+  font-size: x-large;
+  color: gray;
+}
+.icos i span
+{
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+.name
+{
+  display: inline;
+  width: 100%;
+}

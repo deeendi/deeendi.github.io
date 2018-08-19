@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c|Muli" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Contacts</title>
+</head>
+<body>
+<div class="qqq">
+
+
+    <div id="header">
+        <h3 id="Cancel">Cancel</h3>
+        <h2 id="Main" class="contacts">Contacts</h2>
+        <h3 id="Save">Save</h3>
+    </div>
+    <div id="selectedContact">
+    <div class="number">
+        <p id="num"></p>
+        <i class="fas fa-comment"></i>
+    </div>
+    <div class="icos">
+        <i class="far fa-star"><br><span>Favorite</span></i>
+        <i class="far fa-edit" id="edit"><br><span>Edit</span></i>
+        <i class="fas fa-share-alt"><br><span>Share</span></i>
+        <i class="fas fa-ban"><br><span>Blacklist</span></i>
+        <i class="far fa-trash-alt" id="del"><br><span>Delete</span></i>
+    </div>
+</div>
+    <div id="AddContactBlock">
+        <div class="Name">
+            <i class="fas fa-user-circle"></i>
+            <input required="" type="search" class="name" id="name" placeholder="Name" maxlength="12">
+        </div>
+        <div class="Phone"><p><b>Num...</b></p>
+        <input required="" type="number" class="phone" id="phone" onkeydown="if(this.value.length===13) this.value = this.value.slice(0,-1)" placeholder="Phone number">
+        </div>
+    </div>
+    <div id="EditContactBlock">
+        <div class="Name">
+            <i class="fas fa-user-circle"></i>
+            <input required="" type="search" class="name" id="name" placeholder="Name" maxlength="12">
+        </div>
+        <div class="Phone"><p><b>Num...</b></p>
+            <input required="" type="number" class="phone" id="phone" onkeydown="if(this.value.length===13) this.value = this.value.slice(0,-1)" placeholder="Phone number">
+        </div>
+    </div>
+    <div class="searchContact" id="searchBlock">
+        <i class="fa fa-search" aria-hidden="true" id="search"></i>
+        <input type="search" id="filter" align="center" placeholder="Search contacts">
+    </div>
+    <i class="fas fa-user-plus" id="AddContact"></i>
+    <div class="wrapper" id="wrapper"><div class="contact">
+    </div>
+</div>
+    <script src="js/index.js" type="text/javascript"></script>
+</div></body>
+</html>
